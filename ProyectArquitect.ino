@@ -34,7 +34,7 @@ void loop() {
   //Distancia en cm
   distancia= (duracion * 0.000001) * (34300.0 / 2.0); 
   distanciaSegura=distancia;
-  //Si es multiplo de 0
+  //Si es multiplo de 10
   //Se podría decir que sonará cada 10 cm
   if(aux%10==0){
     digitalWrite(buzzer, HIGH);
